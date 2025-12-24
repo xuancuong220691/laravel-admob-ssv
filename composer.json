@@ -1,0 +1,26 @@
+{
+    "name": "cuongnx/laravel-admob-ssv",
+    "description": "Laravel package for AdMob SSV verification",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CuongNX",
+            "email": "xuancuong220691@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0",
+        "illuminate/http": "^12.0",
+        "illuminate/cache": "^12.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CuongNX\\LaravelAdMobSSV\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
